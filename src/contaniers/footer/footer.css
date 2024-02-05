@@ -1,0 +1,136 @@
+.gpt3__footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-footer);
+}
+
+
+.gpt3__footer-heading {
+    width: 75%;
+}
+
+.gpt3__footer-heading h1 {
+    text-align: center;
+    font-family: Manrope;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 73px;
+    /* 120.968% */
+    letter-spacing: -2.48px;
+
+
+    /* max-width: 50%; */
+}
+
+.gpt3__footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 218px;
+    height: 65px;
+    flex-shrink: 0;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.gpt3__footer-btn p {
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gpt3__footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gpt3__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.gpt3__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.gpt3__footer-links_logo p {
+    width: 168px;
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 2rem;
+}
+
+
+.gpt3__footer-links_div {
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+}
+
+
+.gpt3__footer-links_div h4 {
+    margin-bottom: 1rem;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gpt3__footer-links_div p {
+    cursor: pointer;
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.gpt3__footer-copywrite {
+    margin-top: 2rem;
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+  
+
+@media screen and (max-width:960px) {
+    .gpt3__footer-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .gpt3__footer-links_div h4 {
+        margin-top: 2rem;
+    }
+
+}
